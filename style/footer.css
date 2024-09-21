@@ -1,0 +1,29 @@
+.footer{
+    background: linear-gradient(45deg, #240165, #05001c);
+}
+
+.footer .copyright > span{
+    color: var(--green-color);
+}
+
+.footer .contact ul .dst{
+    width: 20px;
+    height: 20px;
+}
+
+
+.footer .fa-facebook{
+    background-color: #1877f2;
+}
+.footer .fa-instagram{
+    background-color: #fd1d1d;
+}
+.footer .fa-youtube{
+    background-color: #ff0000;
+}
+.footer .fa-linkedin{
+    background-color: #0a66c2;
+}
+.footer .fa-twitter{
+    background-color: #1da1f2;
+}

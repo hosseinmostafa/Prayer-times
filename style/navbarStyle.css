@@ -1,0 +1,60 @@
+:root {
+    --darck-color: #19283f;
+    --green-color: #33d1cc;
+    --section-color: #eff7fa;
+    --font-famile-arbc: "Tajawal", sans-serif;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+.navbar {
+    background: linear-gradient(45deg, #05001c, #240165);
+    box-shadow: 0 0 30px rgb(0 0 0 / 50%);
+}
+
+.nav-link {
+    color: white;
+}
+
+.img-logo-navbar {
+    border-radius: 50%;
+    width: 6vh;
+    height: 6vh;
+}
+
+.fa-solid.fa-bars {
+    color: black;
+    font-size: 25px;
+    background-color: white;
+}
+
+.navbar .navbar-nav .nav-link.active,
+.navbar .navbar-nav .nav-link:focus,
+.navbar .navbar-nav .nav-link:hover {
+    transition: .4s;
+    color: var(--green-color);
+}
+
+.search .fa-solid.fa-magnifying-glass {
+    cursor: pointer;
+    color: var(--green-color);
+}
+
+
+.navbar .navbar-toggler {
+    color: white;
+    font-size: 25px;
+    background-color: white;
+    border: 3px solid transparent;
+}
+
+.navbar .navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.navbar .navbar-toggler[aria-expanded="true"] {
+    border-color: var(--green-color);
+}
+

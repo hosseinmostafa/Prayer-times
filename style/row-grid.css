@@ -1,0 +1,48 @@
+
+/* num in icon */
+.features .icon-holder{
+    height: 200px;
+}
+
+.features .icon-holder{
+    left: 16%;
+    transform: translateX(-50%);
+}
+.features .icon-holder .number{
+    font-size: 12rem;
+    color: var(--section-color);
+}
+/* ----------------- */
+/* icon */
+.features .icon-holder .icon{
+    margin-left: 39.7vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #22817e;
+}
+
+.text-black {
+    height: 13vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    --bs-text-opacity: 1;
+    background-color: var(--section-color);
+    color: rgba(var(--bs-black-rgb), var(--bs-text-opacity)) !important;
+    font-size: 2.6vw;
+    border-radius: 6px;
+}
+
+
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: 100% 100%;
+    box-shadow: 0 0 30px rgb(0 0 0 / 50%);
+    background-color: black;
+}

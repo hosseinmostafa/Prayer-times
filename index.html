@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<!-- 18:13 -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="go to the pag">
+    <title>Website With Logein</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+    <link rel="stylesheet" href="./log-in/web loge-in.css">
+    <link rel="stylesheet" href="./log-in/navbar.css">
+    
+
+    <link rel="stylesheet" href="">
+</head>
+
+<body>
+
+    <header>
+
+        <nav class="navbar nav-igation  navbar-expand-lg sticky-top ">
+            <div class="container ">
+                <h2 class="logo ">Logein</h2>
+                
+                <!-- icon bords -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main"
+                aria-controls="main" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+            
+            <!-- Link -->
+            <div class="collapse navbar-collapse" id="main">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+
+                        <li class="nav-item">
+                            <a class="nav-link p-2 p-lg-3 active" aria-current="page " href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link p-2 p-lg-3" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link p-2 p-lg-3" href="#">Sercices</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link p-2 p-lg-3" href="#">Apout</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link p-2 p-lg-3" href="#">Contact</a>
+                        </li>
+                    </ul>
+
+                    <!-- Login -->
+                    <button class="btn-login-popup" onclick="contactBottom('./Prayer-times.html')">Logein</button>
+                    <!-- <a class="btn btn-primary rounded-pill main-btn" href="#">Login</a> -->
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+    <div class="wrapper">
+
+        <div class="form-box-login">
+
+            <h2>Logein</h2>
+
+            <form method="get" target="_blank">
+                <div class="input-box">
+
+                    <span class="icon">
+                        <ion-icon name="mail-outline"></ion-icon>
+                    </span>
+
+                    <input type="email" required minlength="3" maxlength="60">
+                    <label>Email</label>
+
+                </div>
+                <div class="input-box">
+
+                    <span class="icon">
+                        <ion-icon name="lock-closed-outline"></ion-icon>
+                    </span>
+
+                    <input type="password" required minlength="5" maxlength="30">
+                    <label>Password</label>
+
+                </div>
+
+                <div class="remember-forgot">
+
+                    <label>
+                        <input type="checkbox">
+                        Remember me
+                    </label>
+
+                    <a href="#">Forgot Password?</a>
+
+                </div>
+
+                <button type="submit" onclick="contactBottom('./Prayer-times.html')" class="btn">Logein</button>
+
+                <div class="login-register">
+
+                    <p>
+                        Don't heve an account?
+                        <a href="#" class="register-link">Register</a>
+                    </p>
+
+                </div>
+            </form>
+
+        </div>
+    </div>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+
+
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+        <script src="./log-in/web loge-in.js"></script>
+    </body>
+
+</html>
+

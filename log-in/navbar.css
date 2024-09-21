@@ -1,0 +1,50 @@
+:root {
+    --darck-color: #19283f;
+    --green-color: #33d1cc;
+    --section-color: #eff7fa;
+    --font-famile-arbc: "Tajawal", sans-serif;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+
+.nav-link {
+    color: white;
+}
+
+.fa-solid.fa-bars {
+    color: black;
+    font-size: 25px;
+    background-color: white;
+}
+
+.navbar .navbar-nav .nav-link.active,
+.navbar .navbar-nav .nav-link:focus,
+.navbar .navbar-nav .nav-link:hover {
+    transition: .4s;
+    color: var(--section-color);
+}
+
+.search .fa-solid.fa-magnifying-glass {
+    cursor: pointer;
+    /* color: var(--green-color); */
+}
+
+
+.navbar .navbar-toggler {
+    color: white;
+    font-size: 25px;
+    background-color: white;
+    border: 3px solid transparent;
+}
+
+.navbar .navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.navbar .navbar-toggler[aria-expanded="true"] {
+    border-color: var(--green-color);
+}
+

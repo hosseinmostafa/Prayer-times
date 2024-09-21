@@ -1,0 +1,742 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NavBar</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=SUSE:wght@100..800&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=SUSE:wght@100..800&family=Tajawal:wght@200;300;400;500;700;800;900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+    <link rel="stylesheet" href="./style/navbarStyle.css">
+    <link rel="stylesheet" href="./style/LandingSidbar.css">
+    <link rel="stylesheet" href="./style/features.css">
+    <link rel="stylesheet" href="./style/row-grid.css">
+    <link rel="stylesheet" href="./style/our-work.css">
+    <link rel="stylesheet" href="./style/footer.css">
+    <link rel="stylesheet" href="./style/UP-show.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg sticky-top">
+        <div class="container">
+
+            <!-- img Logo -->
+            <a class="navbar-brand" href="#">
+                <img class="img-logo-navbar"
+                    src="https://img.freepik.com/premium-photo/3d-ebook-icon-reading-digital-illustration-logo_762678-47615.jpg"
+                    alt="">
+            </a>
+
+            <!-- icon bords -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main"
+                aria-controls="main" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+            <!-- Link -->
+            <div class="collapse navbar-collapse" id="main">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+
+                    <li class="nav-item">
+                        <a class="nav-link p-2 p-lg-3 active" aria-current="page " href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link p-2 p-lg-3" href="#">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link p-2 p-lg-3" href="#">protfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link p-2 p-lg-3" href="#">Apout</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link p-2 p-lg-3" href="#">Contact</a>
+                    </li>
+                </ul>
+
+                <!-- search -->
+                <div class="search ps-3 pe-3 d-none d-lg-block">
+                    <!-- <input type="search" form="dd"> -->
+                    <i class="fa-solid fa-magnifying-glass" id="dd"></i>
+                </div>
+
+                <!-- Login -->
+                <!-- onclick="contactBottom('./index.html') -->
+                <a class="btn loginn btn-primary rounded-pill main-btn" target="_blank" href="./index.html">Login</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- d-flex justify-content-center align-items-center  عشان نوصطن العنصر في نص  الشاشة-->
+    <div class="landing d-flex justify-content-center align-items-center">
+        <div class="text-center text-light">
+            <h1>Welcome to the prayer times website</h1>
+
+            <!-- fs-5 => font-size: 5px -->
+            <p class="fs-6 arbc text-white-50 mb-4 mt-4">الحمد لله والصلاة والسلام على رسول الله وعلى آله وصحبه أجمعين
+            </p>
+            <a id="start" class="btn btn-primary rounded-pill main-btn" href="#">Get Started</a>
+        </div>
+    </div>
+
+
+    <div class="features text-center pt-5 pb-5">
+        <div class="container">
+            <div class="main-title mt-5 mb-5 possition-relative">
+                <img class="mb-4 img-post-center-bage"
+                    src="https://img.freepik.com/free-vector/eid-alfitr-eid-mubarak-decorative-festival-element-vector-illustration_460848-11960.jpg"
+                    alt="">
+                <h2>Welcome to the prayer times</h2>
+                <p class="text-black-50 ts text-uppercase">بسم الله، توكلت على الله، ولا حول ولا قوة إلا بالله</p>
+            </div>
+        </div>
+
+        <!-- icon in center page -->
+        <div class="container text-center mb-4">
+            <div class="row justify-content-left">
+                <div class="col-md-6 fo col-lg-4 mb-4">
+
+
+                    <div class="contryy position-relative">
+                        <h1 class="mb-3" id="city-name">Egypt</h1>
+                        <h6 class="ps-4 mb-4" id="date">Friday, November 22</h6>
+                    </div>
+
+                    <div class="nav-item dropdown d-flex justify-content-flex-end align-items-center">
+                        <select id="citites-select" class="nav-link td dropdown-toggle text-black rounded-pill" name="">
+                            <!-- --------- -->
+                        </select>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- features -->
+            <div class="row justify-content-md-center">
+                <div class="col-md-6 col-lg-4">
+                    <div class="feat">
+                        <div class="icon-holder position-relative">
+                            <!-- <i class="fa-solid fa-1 position-absolute bottom-0 number"></i> -->
+                            <i class="fa-solid fa-mosque fa-1 position-absolute bottom-0 number"></i>
+                            <h1 class="position-absolute bottom-0 icon fa-4x">الفجر</h1>
+                            <!-- <i class="fa-solid fa-pen position-absolute bottom-0 icon fa-4x"></i> -->
+                        </div>
+                        <h4 class="mb-3 mt-3 text-uppercase ">موقت الصلاة</h4>
+                        <p class="text-black tim lh-lg " id="fjr-time"> 4:30 </p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="feat">
+                        <div class="icon-holder position-relative">
+                            <!-- <i class="fa-solid fa-2 position-absolute bottom-0 number"></i> -->
+                            <i class="fa-solid fa-mosque fa-2 position-absolute bottom-0 number"></i>
+                            <h1 class="position-absolute bottom-0 icon fa-4x">الشروق</h1>
+                            <!-- <i class="fa-solid fa-tv position-absolute bottom-0 icon fa-4x"></i> -->
+                        </div>
+                        <h4 class="mb-3 mt-3 text-uppercase ">موقت الصلاة</h4>
+                        <p class="text-black tim lh-lg " id="sunrise-time"> 4:30 </p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="feat">
+                        <div class="icon-holder position-relative">
+                            <!-- <i class="fa-solid fa-3 position-absolute bottom-0 number"></i> -->
+                            <i class="fa-solid fa-mosque fa-3 position-absolute bottom-0 number"></i>
+                            <h1 class="position-absolute bottom-0 icon fa-4x">الظهر</h1>
+                            <!-- <i class="fa-solid fa-pencil position-absolute bottom-0 icon fa-4x"></i> -->
+                        </div>
+                        <h4 class="mb-3 mt-3 text-uppercase ">موقت الصلاة</h4>
+                        <p class="text-black tim lh-lg " id="dhurh-time"> 4:30 </p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="feat">
+                        <div class="icon-holder position-relative">
+                            <!-- <i class="fa-solid fa-3 position-absolute bottom-0 number"></i> -->
+                            <i class="fa-solid fa-mosque fa-3 position-absolute bottom-0 number"></i>
+                            <h1 class="position-absolute bottom-0 icon fa-4x">العصر</h1>
+                            <!-- <i class="fa-solid fa-pencil position-absolute bottom-0 icon fa-4x"></i> -->
+                        </div>
+                        <h4 class="mb-3 mt-3 text-uppercase ">موقت الصلاة</h4>
+                        <p class="text-black tim lh-lg " id="asr-time"> 4:30 </p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="feat">
+                        <div class="icon-holder position-relative">
+                            <!-- <i class="fa-solid fa-3 position-absolute bottom-0 number"></i> -->
+                            <i class="fa-solid fa-mosque fa-3 position-absolute bottom-0 number"></i>
+                            <h1 class="position-absolute bottom-0 icon fa-4x">المغرب</h1>
+                            <!-- <i class="fa-solid fa-pencil position-absolute bottom-0 icon fa-4x"></i> -->
+                        </div>
+                        <h4 class="mb-3 mt-3 text-uppercase ">موقت الصلاة</h4>
+                        <p class="text-black tim lh-lg " id="sunset-time"> 4:30 </p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="feat">
+                        <div class="icon-holder position-relative">
+                            <!-- <i class="fa-solid fa-3 position-absolute bottom-0 number"></i> -->
+                            <i class="fa-solid fa-mosque fa-3 position-absolute bottom-0 number"></i>
+                            <h1 class="position-absolute bottom-0 icon fa-4x">العشاء</h1>
+                            <!-- <i class="fa-solid fa-pencil position-absolute bottom-0 icon fa-4x"></i> -->
+                        </div>
+                        <h4 class="mb-3 mt-3 text-uppercase ">موقت الصلاة</h4>
+                        <p class="text-black tim lh-lg " id="isha-time"> 4:30 </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="our-work text-center pt-5 pb-5">
+        <div class="container">
+            <div class="main-title mt-5 mb-5 possition-relative">
+                <img class="mb-4 img-post-center-bage"
+                    src="https://img.freepik.com/free-vector/eid-alfitr-eid-mubarak-decorative-festival-element-vector-illustration_460848-11960.jpg"
+                    alt="">
+                <h2>Supplications and remembrances</h2>
+                <p class="text-black-50 ts text-uppercase">بسم الله، توكلت على الله، ولا حول ولا قوة إلا بالله</p>
+            </div>
+
+            <!-- linke -->
+            <!-- data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev" -->
+            <ul class="list-unstyled d-flex justify-content-center mt-5 mb-5" data-bs-slide="next"
+                data-bs-target="#carouselExampleIndicators">
+                <li class="active rounded-pill me-3">Page 1</li>
+                <li class="me-3">Page 2</li>
+                <li class="me-3">Page 3</li>
+                <li class="me-3">Page 4</li>
+                <li class="me-3">Page 5</li>
+            </ul>
+
+            <div id="carouselExampleIndicators" class="carousel slide">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <!-- ------------ -->
+                        <div class="row">
+                            <div class="col-sm-6 col-md-4 col-lg-3">
+                                <div class="box mb-3 bg-white-50 " data-work="Holy Quran">
+                                    <img class="img-fluid"
+                                        src="https://img.freepik.com/premium-photo/close-up-islamic-new-year-with-quran-book_23-2148611711.jpg"
+                                        alt="">
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-4 col-lg-3">
+                                <div class="box mb-3 bg-white-50 " data-work="Night prayer">
+                                    <img class="img-fluid"
+                                        src="https://img.freepik.com/free-photo/free-photo-ramadan-kareem-eid-mubarak-royal-elegant-lamp-with-mosque-holy-gate-with-fireworks_1340-23597.jpg"
+                                        alt="">
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-4 col-lg-3">
+                                <div class="box mb-3 bg-white-50 " data-work="remembrances">
+                                    <img class="img-fluid"
+                                        src="https://img.freepik.com/free-photo/high-angle-holy-book-with-bracelet_23-2148288830.jpg"
+                                        alt="">
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-4 col-lg-3">
+                                <div class="box mb-3 bg-white-50 " data-work="Supplications">
+                                    <img class="img-fluid"
+                                        src="https://img.freepik.com/free-photo/top-view-islamic-new-year-with-quran-book_23-2148611707.jpg"
+                                        alt="">
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-4 col-lg-3">
+                                <div class="box mb-3 bg-white-50 " data-work="Sunnah">
+                                    <img class="img-fluid"
+                                        src="https://img.freepik.com/premium-photo/quran-beads-near-mat_23-2147868928.jpg"
+                                        alt="">
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-4 col-lg-3">
+                                <div class="box mb-3 bg-white-50 " data-work="Prayer for the deceased">
+                                    <img class="img-fluid"
+                                        src="https://img.freepik.com/free-photo/lamp-book-table_1340-27891.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-4 col-lg-3">
+                                <div class="box mb-3 bg-white-50 " data-work="Prayer of praise">
+                                    <img class="img-fluid"
+                                        src="https://img.freepik.com/free-photo/islamic-new-year-decoration-with-praying-beads-quran_23-2148950301.jpg"
+                                        alt="">
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-4 col-lg-3">
+                                <div class="box mb-3 bg-white-50 " data-work="Arafat day">
+                                    <img class="img-fluid"
+                                        src="https://img.freepik.com/free-photo/top-view-islamic-new-year-with-quran-book_23-2148611705.jpg"
+                                        alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <!-- ------------ -->
+                        <div class="row">
+                            <div class="col-sm-6 col-md-4 col-lg-3">
+                                <div class="box mb-3 bg-white-50 " data-work="Holy Quran">
+                                    <img class="img-fluid"
+                                        src="https://img.freepik.com/premium-photo/close-up-islamic-new-year-with-quran-book_23-2148611711.jpg"
+                                        alt="">
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-4 col-lg-3">
+                                <div class="box mb-3 bg-white-50 " data-work="Night prayer">
+                                    <img class="img-fluid"
+                                        src="https://img.freepik.com/free-photo/free-photo-ramadan-kareem-eid-mubarak-royal-elegant-lamp-with-mosque-holy-gate-with-fireworks_1340-23597.jpg"
+                                        alt="">
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-4 col-lg-3">
+                                <div class="box mb-3 bg-white-50 " data-work="remembrances">
+                                    <img class="img-fluid"
+                                        src="https://img.freepik.com/free-photo/high-angle-holy-book-with-bracelet_23-2148288830.jpg"
+                                        alt="">
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-4 col-lg-3">
+                                <div class="box mb-3 bg-white-50 " data-work="Supplications">
+                                    <img class="img-fluid"
+                                        src="https://img.freepik.com/free-photo/top-view-islamic-new-year-with-quran-book_23-2148611707.jpg"
+                                        alt="">
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-4 col-lg-3">
+                                <div class="box mb-3 bg-white-50 " data-work="Sunnah">
+                                    <img class="img-fluid"
+                                        src="https://img.freepik.com/premium-photo/quran-beads-near-mat_23-2147868928.jpg"
+                                        alt="">
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-4 col-lg-3">
+                                <div class="box mb-3 bg-white-50 " data-work="Prayer for the deceased">
+                                    <img class="img-fluid"
+                                        src="https://img.freepik.com/free-photo/lamp-book-table_1340-27891.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-4 col-lg-3">
+                                <div class="box mb-3 bg-white-50 " data-work="Prayer of praise">
+                                    <img class="img-fluid"
+                                        src="https://img.freepik.com/free-photo/islamic-new-year-decoration-with-praying-beads-quran_23-2148950301.jpg"
+                                        alt="">
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-4 col-lg-3">
+                                <div class="box mb-3 bg-white-50 " data-work="Arafat day">
+                                    <img class="img-fluid"
+                                        src="https://img.freepik.com/free-photo/top-view-islamic-new-year-with-quran-book_23-2148611705.jpg"
+                                        alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <!-- ------------ -->
+                        <div class="row">
+                            <div class="col-sm-6 col-md-4 col-lg-3">
+                                <div class="box mb-3 bg-white-50 " data-work="Holy Quran">
+                                    <img class="img-fluid"
+                                        src="https://img.freepik.com/premium-photo/close-up-islamic-new-year-with-quran-book_23-2148611711.jpg"
+                                        alt="">
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-4 col-lg-3">
+                                <div class="box mb-3 bg-white-50 " data-work="Night prayer">
+                                    <img class="img-fluid"
+                                        src="https://img.freepik.com/free-photo/free-photo-ramadan-kareem-eid-mubarak-royal-elegant-lamp-with-mosque-holy-gate-with-fireworks_1340-23597.jpg"
+                                        alt="">
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-4 col-lg-3">
+                                <div class="box mb-3 bg-white-50 " data-work="remembrances">
+                                    <img class="img-fluid"
+                                        src="https://img.freepik.com/free-photo/high-angle-holy-book-with-bracelet_23-2148288830.jpg"
+                                        alt="">
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-4 col-lg-3">
+                                <div class="box mb-3 bg-white-50 " data-work="Supplications">
+                                    <img class="img-fluid"
+                                        src="https://img.freepik.com/free-photo/top-view-islamic-new-year-with-quran-book_23-2148611707.jpg"
+                                        alt="">
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-4 col-lg-3">
+                                <div class="box mb-3 bg-white-50 " data-work="Sunnah">
+                                    <img class="img-fluid"
+                                        src="https://img.freepik.com/premium-photo/quran-beads-near-mat_23-2147868928.jpg"
+                                        alt="">
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-4 col-lg-3">
+                                <div class="box mb-3 bg-white-50 " data-work="Prayer for the deceased">
+                                    <img class="img-fluid"
+                                        src="https://img.freepik.com/free-photo/lamp-book-table_1340-27891.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-4 col-lg-3">
+                                <div class="box mb-3 bg-white-50 " data-work="Prayer of praise">
+                                    <img class="img-fluid"
+                                        src="https://img.freepik.com/free-photo/islamic-new-year-decoration-with-praying-beads-quran_23-2148950301.jpg"
+                                        alt="">
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-4 col-lg-3">
+                                <div class="box mb-3 bg-white-50 " data-work="Arafat day">
+                                    <img class="img-fluid"
+                                        src="https://img.freepik.com/free-photo/top-view-islamic-new-year-with-quran-book_23-2148611705.jpg"
+                                        alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <!-- ------------ -->
+                        <div class="row">
+                            <div class="col-sm-6 col-md-4 col-lg-3">
+                                <div class="box mb-3 bg-white-50 " data-work="Holy Quran">
+                                    <img class="img-fluid"
+                                        src="https://img.freepik.com/premium-photo/close-up-islamic-new-year-with-quran-book_23-2148611711.jpg"
+                                        alt="">
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-4 col-lg-3">
+                                <div class="box mb-3 bg-white-50 " data-work="Night prayer">
+                                    <img class="img-fluid"
+                                        src="https://img.freepik.com/free-photo/free-photo-ramadan-kareem-eid-mubarak-royal-elegant-lamp-with-mosque-holy-gate-with-fireworks_1340-23597.jpg"
+                                        alt="">
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-4 col-lg-3">
+                                <div class="box mb-3 bg-white-50 " data-work="remembrances">
+                                    <img class="img-fluid"
+                                        src="https://img.freepik.com/free-photo/high-angle-holy-book-with-bracelet_23-2148288830.jpg"
+                                        alt="">
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-4 col-lg-3">
+                                <div class="box mb-3 bg-white-50 " data-work="Supplications">
+                                    <img class="img-fluid"
+                                        src="https://img.freepik.com/free-photo/top-view-islamic-new-year-with-quran-book_23-2148611707.jpg"
+                                        alt="">
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-4 col-lg-3">
+                                <div class="box mb-3 bg-white-50 " data-work="Sunnah">
+                                    <img class="img-fluid"
+                                        src="https://img.freepik.com/premium-photo/quran-beads-near-mat_23-2147868928.jpg"
+                                        alt="">
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-4 col-lg-3">
+                                <div class="box mb-3 bg-white-50 " data-work="Prayer for the deceased">
+                                    <img class="img-fluid"
+                                        src="https://img.freepik.com/free-photo/lamp-book-table_1340-27891.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-4 col-lg-3">
+                                <div class="box mb-3 bg-white-50 " data-work="Prayer of praise">
+                                    <img class="img-fluid"
+                                        src="https://img.freepik.com/free-photo/islamic-new-year-decoration-with-praying-beads-quran_23-2148950301.jpg"
+                                        alt="">
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-4 col-lg-3">
+                                <div class="box mb-3 bg-white-50 " data-work="Arafat day">
+                                    <img class="img-fluid"
+                                        src="https://img.freepik.com/free-photo/top-view-islamic-new-year-with-quran-book_23-2148611705.jpg"
+                                        alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <!-- ------------ -->
+                        <div class="row">
+                            <div class="col-sm-6 col-md-4 col-lg-3">
+                                <div class="box mb-3 bg-white-50 " data-work="Holy Quran">
+                                    <img class="img-fluid"
+                                        src="https://img.freepik.com/premium-photo/close-up-islamic-new-year-with-quran-book_23-2148611711.jpg"
+                                        alt="">
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-4 col-lg-3">
+                                <div class="box mb-3 bg-white-50 " data-work="Night prayer">
+                                    <img class="img-fluid"
+                                        src="https://img.freepik.com/free-photo/free-photo-ramadan-kareem-eid-mubarak-royal-elegant-lamp-with-mosque-holy-gate-with-fireworks_1340-23597.jpg"
+                                        alt="">
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-4 col-lg-3">
+                                <div class="box mb-3 bg-white-50 " data-work="remembrances">
+                                    <img class="img-fluid"
+                                        src="https://img.freepik.com/free-photo/high-angle-holy-book-with-bracelet_23-2148288830.jpg"
+                                        alt="">
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-4 col-lg-3">
+                                <div class="box mb-3 bg-white-50 " data-work="Supplications">
+                                    <img class="img-fluid"
+                                        src="https://img.freepik.com/free-photo/top-view-islamic-new-year-with-quran-book_23-2148611707.jpg"
+                                        alt="">
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-4 col-lg-3">
+                                <div class="box mb-3 bg-white-50 " data-work="Sunnah">
+                                    <img class="img-fluid"
+                                        src="https://img.freepik.com/premium-photo/quran-beads-near-mat_23-2147868928.jpg"
+                                        alt="">
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-4 col-lg-3">
+                                <div class="box mb-3 bg-white-50 " data-work="Prayer for the deceased">
+                                    <img class="img-fluid"
+                                        src="https://img.freepik.com/free-photo/lamp-book-table_1340-27891.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-4 col-lg-3">
+                                <div class="box mb-3 bg-white-50 " data-work="Prayer of praise">
+                                    <img class="img-fluid"
+                                        src="https://img.freepik.com/free-photo/islamic-new-year-decoration-with-praying-beads-quran_23-2148950301.jpg"
+                                        alt="">
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-4 col-lg-3">
+                                <div class="box mb-3 bg-white-50 " data-work="Arafat day">
+                                    <img class="img-fluid"
+                                        src="https://img.freepik.com/free-photo/top-view-islamic-new-year-with-quran-book_23-2148611705.jpg"
+                                        alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+
+            <!-- bottom in in lest page -->
+            <div class="d-flex justify-content-center mt5">
+                <a class="btn btn-primary rounded-pill main-btn text-uppercase" data-bs-slide="next"
+                    data-bs-target="#carouselExampleIndicators" href="#">i want more <i
+                        class="fa-solid fa-arrow-right fa-fade"></i></a>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <!-- 
+
+
+
+
+
+            <div class="row">
+                <div class="col-sm-6 col-md-4 col-lg-3">
+                    <div class="box mb-3 bg-white-50 " data-work="Holy Quran">
+                        <img class="img-fluid"
+                            src="https://img.freepik.com/premium-photo/close-up-islamic-new-year-with-quran-book_23-2148611711.jpg"
+                            alt="">
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3">
+                    <div class="box mb-3 bg-white-50 " data-work="Night prayer">
+                        <img class="img-fluid"
+                            src="https://img.freepik.com/free-photo/free-photo-ramadan-kareem-eid-mubarak-royal-elegant-lamp-with-mosque-holy-gate-with-fireworks_1340-23597.jpg"
+                            alt="">
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3">
+                    <div class="box mb-3 bg-white-50 " data-work="remembrances">
+                        <img class="img-fluid"
+                            src="https://img.freepik.com/free-photo/high-angle-holy-book-with-bracelet_23-2148288830.jpg"
+                            alt="">
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3">
+                    <div class="box mb-3 bg-white-50 " data-work="Supplications">
+                        <img class="img-fluid"
+                            src="https://img.freepik.com/free-photo/top-view-islamic-new-year-with-quran-book_23-2148611707.jpg"
+                            alt="">
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3">
+                    <div class="box mb-3 bg-white-50 " data-work="Sunnah">
+                        <img class="img-fluid"
+                            src="https://img.freepik.com/premium-photo/quran-beads-near-mat_23-2147868928.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3">
+                    <div class="box mb-3 bg-white-50 " data-work="Prayer for the deceased">
+                        <img class="img-fluid" src="https://img.freepik.com/free-photo/lamp-book-table_1340-27891.jpg"
+                            alt="">
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3">
+                    <div class="box mb-3 bg-white-50 " data-work="Prayer of praise">
+                        <img class="img-fluid"
+                            src="https://img.freepik.com/free-photo/islamic-new-year-decoration-with-praying-beads-quran_23-2148950301.jpg"
+                            alt="">
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3">
+                    <div class="box mb-3 bg-white-50 " data-work="Arafat day">
+                        <img class="img-fluid"
+                            src="https://img.freepik.com/free-photo/top-view-islamic-new-year-with-quran-book_23-2148611705.jpg"
+                            alt="">
+                    </div>
+                </div>
+            </div>
+ -->
+
+
+
+
+
+
+
+
+
+
+        </div>
+    </div>
+
+
+    <!-- footer -->
+    <div class="footer pt-5 pb-5 text-white-50 text-center text-md-start">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-lg-4">
+                    <div class="info mb-5">
+                        <img src="https://img.freepik.com/premium-photo/3d-ebook-icon-reading-digital-illustration-logo_762678-47615.jpg"
+                            alt="" class="img-logo-navbar mb-4">
+                        <p class="mb-5">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate asperiores earum
+                            voluptatum aperiam quidem dolor,
+                            deserunt expedita perspiciatis quae perferendis modi natus maxime quos non blanditiis rerum.
+                            Velit, illo cumque?
+                        </p>
+                        <div class="copyright">
+                            Created By <span>Graphberry</span>
+                        </div>
+                        <div>&copy; 2024 - <span>Bondi INC</span></div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-2">
+                    <div class="links">
+                        <h5 class="text-light">LInks</h5>
+                        <ul class="list-unstyled lh-lg">
+                            <li>Home</li>
+                            <li>Our Services</li>
+                            <li>Porfilio</li>
+                            <li>Testimonials</li>
+                            <li>Support</li>
+                            <li>Terms and Condition</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-2">
+                    <div class="links">
+                        <h5 class="text-light">LInks</h5>
+                        <ul class="list-unstyled lh-lg">
+                            <li>Home</li>
+                            <li>Our Services</li>
+                            <li>Porfilio</li>
+                            <li>Testimonials</li>
+                            <li>Support</li>
+                            <li>Terms and Condition</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="contact">
+                        <h5 class="text-light">Contact Us</h5>
+                        <p class="lh-lg mt-3 mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto
+                            perferendis doloribus delectus, incidunt vel quibusdam, laudantium nesciunt magni iusto
+                            vitae quaerat reprehenderit temporibus ex voluptate at accusantium inventore consectetur
+                            quae.</p>
+                        <div class="d-flex justify-content-center mt5">
+
+                            <a class="btn btn-primary rounded-pill main-btn w-100" href="#">gtaphberry@gmail.com</a>
+                        </div>
+                        <ul class="d-flex mt-5 list-unstyled gap-4">
+                            <li>
+                                <a class="d-block text-light" target="_blank" href="https://x.com/Hesseinmostaf"><i
+                                        class="fa-brands fa-twitter fa-lg-twitter rounded-circle p-2"></i></a>
+                            </li>
+                            <li>
+                                <a class="d-block text-light" target="_blank"
+                                    href="https://www.linkedin.com/in/hessein-mostafa/"><i
+                                        class="fa-brands fa-linkedin fa-lg-linkedin rounded-circle p-2"></i></a>
+                            </li>
+                            <li>
+                                <a class="d-block text-light" href=""><i
+                                        class="fa-brands fa-facebook fa-lg-facebook rounded-circle p-2"></i></a>
+                            </li>
+                            <li>
+                                <a class="d-block text-light" href=""><i
+                                        class="fa-brands fa-instagram fa-lg-instagram rounded-circle p-2"></i></a>
+                            </li>
+                            <li>
+                                <a class="d-block text-light" href="https://www.youtube.com/"><i
+                                        class="fa-brands fa-youtube fa-lg-youtube  rounded-circle p-2"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <span class="UP show"><i class="fa-solid fa-arrow-up fa-bounce"></i></span>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+
+    <script src="./node_modules/axios/dist/axios.min.js"></script>
+    <script src="./script/scrrollstarn.js"></script>
+    <script src="./script/apiTiming.js"></script>
+
+
+
+</body>
+
+</html>

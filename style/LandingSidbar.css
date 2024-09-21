@@ -1,0 +1,19 @@
+.landing{
+    background: linear-gradient(45deg, #240165, #05001c);
+    min-height: calc(100vh - 72px);
+}
+
+.fs-6.arbc{
+    font-weight: bold;
+    font-family: var(--font-famile-arbc);
+    
+}
+
+.text-black-50.ts{
+    font-weight: bold;
+    font-family: var(--font-famile-arbc);
+}
+
+.contryy{
+    font-family: "Roboto", sans-serif;
+}

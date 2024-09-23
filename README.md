@@ -16,12 +16,14 @@ Install dependencies using npm install
 Start the development server using npm start
 ## Configuration
 Create a config.json file in the root directory with the following 
-
+<br>
 {
   "api_key": "YOUR_API_KEY",
   <br>
   "default_location": "New York, USA"
+  <br>
 }
+<bt>
 Replace YOUR_API_KEY with your actual API key from a prayer times API provider (e.g. IslamicFinder, PrayerTimes.io).
 
 ## Contributing

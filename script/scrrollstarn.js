@@ -24,15 +24,6 @@ UP.onclick = function(){
 }
 
 
-// startScroll.onclick = function(){
-//     var middlePoint = document.body.scrollHeight / 2;
-//     window.scrollBy({
-//         top: middlePoint - window.innerHeight / 2,
-//         behavior: "smooth"
-//     })
-// }
-
-
 
 
 
